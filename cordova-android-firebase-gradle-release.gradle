@@ -1,0 +1,26 @@
+repositories{
+  // Google APIs are now hosted at Maven
+  maven {
+    url 'https://maven.google.com'
+  }
+}
+
+def PLUGIN_NAME = "cordova-android-firebase-gradle-release"
+
+// Fetch FIREBASE_VERSION var from properties.gradle
+apply from: PLUGIN_NAME + '/properties.gradle'
+
+// List of libs to search for.
+def LIBS = [
+    'com.google.firebase'
+]
+
+println("+-----------------------------------------------------------------");
+println("| " + PLUGIN_NAME + ": " + FIREBASE_VERSION);
+println("+-----------------------------------------------------------------");
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        if (details.requested.group in LIBS) { details.useVersion FIREBASE_VERSION }
+    }
+}
