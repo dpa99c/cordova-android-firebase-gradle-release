@@ -8,12 +8,10 @@ This Cordova/Phonegap plugin for Android aligns versions of the Firebase library
 **Table of Contents**
 
 - [Purpose](#purpose)
-- [Caveats](#caveats)
 - [Installation](#installation)
 - [Library versions](#library-versions)
   - [Default version](#default-version)
   - [Other versions](#other-versions)
-- [Example](#example)
 - [Credits](#credits)
 - [License](#license)
 
