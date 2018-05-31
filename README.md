@@ -48,7 +48,7 @@ By default, this plugin will use the most recent major version the Firebase libr
 
 ## Other versions
 
-In some cases, you may want to specify a different version of the Firebase library - [see here](https://firebase.google.com/support/release-notes/android#20180502) for a list recent versions.
+In some cases, you may want to specify a different version of the Firebase library - [see here](https://firebase.google.com/support/release-notes/android) for a list recent versions.
 So this plugin enables you to specify other versions of the Firebase library using the `FIREBASE_VERSION` plugin variable.
  
 For example, if you want to install v12 of the Firebase library, you'd specify the version via the variable:
