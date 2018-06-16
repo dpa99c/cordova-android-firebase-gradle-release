@@ -1,7 +1,7 @@
 const PLUGIN_NAME = "cordova-android-firebase-gradle-release";
 const V6 = "cordova-android@6";
 const V7 = "cordova-android@7";
-const PACKAGE_PATTERN = /(compile "com.google.firebase:[^:]+:)([^"]+)"/;
+const PACKAGE_PATTERN = /(compile "com.google.firebase:[^:]+:)([^"]+)"/g;
 const PROPERTIES_TEMPLATE = 'ext {FIREBASE_VERSION = "<VERSION>"}';
 
 var FILE_PATHS = {};
