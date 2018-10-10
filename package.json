@@ -1,6 +1,6 @@
 {
   "name": "cordova-android-firebase-gradle-release",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cordova/Phonegap plugin to align versions of the Firebase library specified by other plugins to a specific version",
   "author": "Dave Alden",
   "license": "MIT",
