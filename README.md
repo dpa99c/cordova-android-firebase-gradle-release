@@ -1,5 +1,5 @@
-cordova-android-firebase-gradle-release
-======================================
+cordova-android-firebase-gradle-release [![Latest Stable Version](https://img.shields.io/npm/v/cordova-android-firebase-gradle-release.svg)](https://www.npmjs.com/package/cordova-android-firebase-gradle-release) [![Total Downloads](https://img.shields.io/npm/dt/cordova-android-firebase-gradle-release.svg)](https://npm-stat.com/charts.html?package=cordova-android-firebase-gradle-release)
+=======================================
 
 This Cordova/Phonegap plugin for Android aligns versions of the Firebase library specified by other plugins to a specific version.
 
