@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-android-firebase-gradle-release"
-        version="1.0.5">
+        version="2.0.0">
 
     <name>cordova-android-firebase-gradle-release</name>
     <description>Cordova/Phonegap plugin to align versions of the Firebase library specified by other plugins to a specific version</description>
@@ -18,19 +18,9 @@
         <hook type="before_build" src="scripts/apply-changes.js" />
         <hook type="after_plugin_install" src="scripts/apply-changes.js" />
 
-        <!-- Cleanup on uninstall -->
-        <hook type="before_plugin_rm" src="scripts/on-uninstall.js" />
-        <hook type="before_plugin_uninstall" src="scripts/on-uninstall.js" />
-
         <preference name="FIREBASE_VERSION" default="15.+" />
 
-        <!-- cordova-android@6-->
-        <source-file src="cordova-android-firebase-gradle-release.gradle" target-dir="cordova-android-firebase-gradle-release" />
-        <source-file src="properties.gradle" target-dir="cordova-android-firebase-gradle-release" />
-
-        <!-- cordova-android@7-->
-        <source-file src="cordova-android-firebase-gradle-release.gradle" target-dir="app/cordova-android-firebase-gradle-release" />
-        <source-file src="properties.gradle" target-dir="app/cordova-android-firebase-gradle-release" />
+        <framework src="cordova-android-firebase-gradle-release.gradle" custom="true" type="gradleReference" />
     </platform>
 
 </plugin>

@@ -5,10 +5,8 @@ repositories{
   }
 }
 
+def FIREBASE_VERSION = "15.+"
 def PLUGIN_NAME = "cordova-android-firebase-gradle-release"
-
-// Fetch FIREBASE_VERSION var from properties.gradle
-apply from: PLUGIN_NAME + '/properties.gradle'
 
 // List of libs to search for.
 def LIBS = [
