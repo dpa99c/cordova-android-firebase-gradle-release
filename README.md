@@ -80,7 +80,7 @@ You can see what the currently pinned versions are by looking at the `<preferenc
 You may want to specify a version the Firebase library components - [see here](https://firebase.google.com/support/release-notes/android) for a list recent versions.
 
 Library component versions are specified in the Android build as Gradle artifacts in the format `packageId:componentId:versionNumber`, for example `com.google.firebase:firebase-core:17.0.0`.
-To override the default version when installing this plugin, specify a plugin variable where then variable key is the component ID and the value is the version number. 
+To override the default version when installing this plugin, specify a plugin variable where the variable key is the component ID and the value is the version number. 
 For example, if you want to install v17.0.0 of the Firebase Core library component, you'd specify the version via the variable:
 
     cordova plugin add cordova-android-firebase-gradle-release --variable firebase-core=17.0.0
