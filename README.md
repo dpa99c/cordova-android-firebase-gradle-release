@@ -43,34 +43,34 @@ Since the plugin uses hook scripts it will not work in Cloud Build environments 
 # Component versions
 This plugin enables overriding the version of the following Firebase SDK library components:
 
-	Firebase Core	`com.google.firebase:firebase-core`
-	Ads	`com.google.firebase:firebase-ads`
-	Analytics	`com.google.firebase:firebase-analytics`
-	App Indexing	`com.google.firebase:firebase-appindexing`
-	Authentication	`com.google.firebase:firebase-auth`
-	Cloud Firestore	`com.google.firebase:firebase-firestore`
-	Cloud Functions	`com.google.firebase:firebase-functions`
-	Cloud Messaging	`com.google.firebase:firebase-messaging`
-	Cloud Storage	`com.google.firebase:firebase-storage`
-	Crash Reporting	`com.google.firebase:firebase-crash`
-	Crashlytics	`com.crashlytics.sdk.android:crashlytics`
-	Dynamic Links	`com.google.firebase:firebase-dynamic-links`
-	Invites	`com.google.firebase:firebase-invites`
-	In-App Messaging	`com.google.firebase:firebase-inappmessaging`
-	In-App Messaging Display	`com.google.firebase:firebase-inappmessaging-display`
-	ML Kit: Vision APIs	`com.google.firebase:firebase-ml-vision`
-	ML Kit: Image Labeling Model	`com.google.firebase:firebase-ml-vision-image-label-model`
-	ML Kit: Face Detection Model	`com.google.firebase:firebase-ml-vision-face-model`
-	ML Kit: Object Detection and Tracking Model	`com.google.firebase:firebase-ml-vision-object-detection-model`
-	ML Kit: Natural Language APIs	`com.google.firebase:firebase-ml-natural-language`
-	ML Kit: Language Identification Model	`com.google.firebase:firebase-ml-natural-language-language-id-model`
-	ML Kit: Translate Model	`com.google.firebase:firebase-ml-natural-language-translate-model`
-	ML Kit: Smart Reply Model	`com.google.firebase:firebase-ml-natural-language-smart-reply-model`
-	ML Kit: Custom Model APIs	`com.google.firebase:firebase-ml-model-interpreter`
-	ML Kit: AutoML Vision Edge API	`com.google.firebase:firebase-ml-vision-automl`
-	Performance Monitoring	`com.google.firebase:firebase-perf`
-	Realtime Database	`com.google.firebase:firebase-database`
-	Remote Config	`com.google.firebase:firebase-config`
+	Firebase Core	com.google.firebase:firebase-core
+	Ads	com.google.firebase:firebase-ads
+	Analytics	com.google.firebase:firebase-analytics
+	App Indexing	com.google.firebase:firebase-appindexing
+	Authentication	com.google.firebase:firebase-auth
+	Cloud Firestore	com.google.firebase:firebase-firestore
+	Cloud Functions	com.google.firebase:firebase-functions
+	Cloud Messaging	com.google.firebase:firebase-messaging
+	Cloud Storage	com.google.firebase:firebase-storage
+	Crash Reporting	com.google.firebase:firebase-crash
+	Crashlytics	com.crashlytics.sdk.android:crashlytics
+	Dynamic Links	com.google.firebase:firebase-dynamic-links
+	Invites	com.google.firebase:firebase-invites
+	In-App Messaging	com.google.firebase:firebase-inappmessaging
+	In-App Messaging Display	com.google.firebase:firebase-inappmessaging-display
+	ML Kit: Vision APIs	com.google.firebase:firebase-ml-vision
+	ML Kit: Image Labeling Model	com.google.firebase:firebase-ml-vision-image-label-model
+	ML Kit: Face Detection Model	com.google.firebase:firebase-ml-vision-face-model
+	ML Kit: Object Detection and Tracking Model	com.google.firebase:firebase-ml-vision-object-detection-model
+	ML Kit: Natural Language APIs	com.google.firebase:firebase-ml-natural-language
+	ML Kit: Language Identification Model	com.google.firebase:firebase-ml-natural-language-language-id-model
+	ML Kit: Translate Model	com.google.firebase:firebase-ml-natural-language-translate-model
+	ML Kit: Smart Reply Model	com.google.firebase:firebase-ml-natural-language-smart-reply-model
+	ML Kit: Custom Model APIs	com.google.firebase:firebase-ml-model-interpreter
+	ML Kit: AutoML Vision Edge API	com.google.firebase:firebase-ml-vision-automl
+	Performance Monitoring	com.google.firebase:firebase-perf
+	Realtime Database	com.google.firebase:firebase-database
+	Remote Config	com.google.firebase:firebase-config
 
 ## Default version
 By default, this plugin pins a recent major version of each of the Firebase library components.
