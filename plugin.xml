@@ -2,15 +2,15 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-android-firebase-gradle-release"
-        version="3.0.0">
+        version="4.0.0">
 
     <name>cordova-android-firebase-gradle-release</name>
-    <description>Cordova/Phonegap plugin to align versions of the Firebase library specified by other plugins to a specific version</description>
+    <description>Cordova/Phonegap plugin for Android to align versions of the Firebase library components specified by other plugins to a specific version.</description>
     <author>Dave Alden</author>
     
     <engines>
-      <engine name="cordova" version=">=6.2.0" />
-        <engine name="cordova-android" version=">=6.0.0" />
+      <engine name="cordova" version=">=8.0.0" />
+        <engine name="cordova-android" version=">=7.0.0" />
     </engines>
 
     <platform name="android">
@@ -18,7 +18,89 @@
         <hook type="before_build" src="scripts/apply-changes.js" />
         <hook type="after_plugin_install" src="scripts/apply-changes.js" />
 
-        <preference name="FIREBASE_VERSION" default="15.+" />
+        <!-- Firebase Core -->
+        <preference name="firebase-core" default="17.0.0" />
+
+        <!-- Ads -->
+        <preference name="firebase-ads" default="18.0.0" />
+
+        <!-- Analytics -->
+        <preference name="firebase-analytics" default="17.0.0" />
+
+        <!-- App Indexing -->
+        <preference name="firebase-appindexing" default="19.0.0" />
+
+        <!-- Authentication -->
+        <preference name="firebase-auth" default="18.0.0" />
+
+        <!-- Cloud Firestore -->
+        <preference name="firebase-firestore" default="20.0.0" />
+
+        <!-- Cloud Functions -->
+        <preference name="firebase-functions" default="18.0.0" />
+
+        <!-- Cloud Messaging -->
+        <preference name="firebase-messaging" default="19.0.0" />
+
+        <!-- Cloud Storage -->
+        <preference name="firebase-storage" default="18.0.0" />
+
+        <!-- Crash Reporting -->
+        <preference name="firebase-crash" default="16.2.1" />
+
+        <!-- Crashlytics -->
+        <preference name="crashlytics" default="2.10.1" />
+
+        <!-- Dynamic Links -->
+        <preference name="firebase-dynamic-links" default="18.0.0" />
+
+        <!-- Invites -->
+        <preference name="firebase-invites" default="17.0.0" />
+
+        <!-- In-App Messaging -->
+        <preference name="firebase-inappmessaging" default="18.0.1" />
+
+        <!-- In-App Messaging Display -->
+        <preference name="firebase-inappmessaging-display" default="18.0.1" />
+
+        <!-- ML Kit: Vision APIs -->
+        <preference name="firebase-ml-vision" default="21.0.0" />
+
+        <!-- ML Kit: Image Labeling Model -->
+        <preference name="firebase-ml-vision-image-label-model" default="18.0.0" />
+
+        <!-- ML Kit: Face Detection Model -->
+        <preference name="firebase-ml-vision-face-model" default="18.0.0" />
+
+        <!-- ML Kit: Object Detection and Tracking Model -->
+        <preference name="firebase-ml-vision-object-detection-model" default="17.0.0" />
+
+        <!-- ML Kit: Natural Language APIs -->
+        <preference name="firebase-ml-natural-language" default="20.0.0" />
+
+        <!-- ML Kit: Language Identification Model -->
+        <preference name="firebase-ml-natural-language-language-id-model" default="20.0.0" />
+
+        <!-- ML Kit: Translate Model -->
+        <preference name="firebase-ml-natural-language-translate-model" default="20.0.0" />
+
+        <!-- ML Kit: Smart Reply Model -->
+        <preference name="firebase-ml-natural-language-smart-reply-model" default="20.0.0" />
+
+        <!-- ML Kit: Custom Model APIs -->
+        <preference name="firebase-ml-model-interpreter" default="20.0.0" />
+
+        <!-- ML Kit: AutoML Vision Edge API -->
+        <preference name="firebase-ml-vision-automl" default="17.0.0" />
+
+        <!-- Performance Monitoring -->
+        <preference name="firebase-perf" default="18.0.0" />
+
+        <!-- Realtime Database -->
+        <preference name="firebase-database" default="18.0.0" />
+
+        <!-- Remote Config -->
+        <preference name="firebase-config" default="18.0.0" />
 
         <framework src="cordova-android-firebase-gradle-release.gradle" custom="true" type="gradleReference" />
     </platform>
