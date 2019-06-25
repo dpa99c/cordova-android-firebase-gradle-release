@@ -38,7 +38,7 @@ Since the plugin uses hook scripts it will not work in Cloud Build environments 
     # override using default component versions
     $ cordova plugin add cordova-android-firebase-gradle-release
     
-    ## override using custom component versions 
+    # override using custom component versions 
     $ cordova plugin add cordova-android-firebase-gradle-release  --variable firebase-core=17.0.0 --variable firebase-messaging=19.0.0
     
 # Component versions
@@ -74,7 +74,7 @@ This plugin enables overriding the version of the following Firebase SDK library
 	Remote Config	com.google.firebase:firebase-config
 
 ## Default version
-By default, this plugin pins a recent major version of each of the Firebase library components.
+By default, this plugin pins a recent version of each of the Firebase library components.
 You can see what the currently pinned versions are by looking at the `<preference>`'s in the [`plugin.xml`](https://github.com/dpa99c/cordova-android-firebase-gradle-release/blob/master/plugin.xml).
 
 ## Other versions
