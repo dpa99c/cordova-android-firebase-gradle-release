@@ -98,7 +98,6 @@ Or in the `package.json`, e.g.:
             "plugins": {
                 "cordova-android-firebase-gradle-release": {
                     "firebase-core": "17.0.0"
-                    }        
                 }
             }
         }
